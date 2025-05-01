@@ -10,4 +10,4 @@ def pergunta(pergunta: str):
     for chunk in stream:
         print(chunk["message"]["content"], end='', flush=True)
 
-pergunta('Como faço para ter você instalado localmente no meu projeto?')
+pergunta('Você conhece o time de e-sports FURIA?')
