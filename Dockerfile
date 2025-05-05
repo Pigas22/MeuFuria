@@ -7,7 +7,8 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git && apt-get clean
 
 # Copia os arquivos para dentro do container
-COPY ./src /app
+# COPY ./src /app
+COPY ./src/requirements.txt /app/requirements.txt
 
 # Instala as dependências
 RUN pip install --upgrade pip

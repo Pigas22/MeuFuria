@@ -6,6 +6,7 @@ ollama serve &
 sleep 5
 
 # puxando o modelo
-ollama pull gemma3:1b
+# ollama pull gemma3:1b
+ollama pull llama3.2:1b
 
 wait
